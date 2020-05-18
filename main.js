@@ -6,11 +6,24 @@
 
   console.log('%cKATA 1 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
+  
+
   let counter = 1
   while (counter <= 20) {
     console.log(counter)
     counter += 1
   }
+  for (let counter1 = 1; counter1 <= limit; counter1 += 1) {
+    console.log(counter1)
+  }
+
+// let counter1 = 1
+// // const limit = 20
+// while (counter1 <= 20){
+//   console.log(counter1)
+//   counter1 += 1
+// }
+
 
 /** KATA 02 ⮕
 ***
@@ -23,6 +36,15 @@
 
   /* Write your KATA 02 code in place of THIS comment. */
 
+let counter2 = 1
+while (counter2 <= 20){
+  const counterIsEven = counter2 % 2 ===0
+    if (counterIsEven){
+ console.log(counter2)
+  counter2 += 1
+    }
+}
+
 
 /** KATA 03 ⮕
 ***
@@ -34,7 +56,13 @@
  
 
   /* Write your KATA 03 code in place of THIS comment. */
+let counter3 = 1
+while (counter3 <= 20){
+  console.log(counter3)
+  counter3 += 2
+}
 
+for (let counter3 = 1)
 
 /** KATA 04 ⮕
 ***
@@ -44,6 +72,12 @@
 
   console.log('%cKATA 04 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
+  let counter4 = 1
+  while (counter4 <= 100){
+   console.log(counter4)
+    counter4 += 5
+      }
+  
 
   /* Write your KATA 04 code in place of THIS comment. */
 
@@ -56,6 +90,15 @@
 
   console.log('%cKATA 05 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
+let counter5 = 1
+while (counter5 <= 100){
+  // console.log(counter5 * counter5);
+  const isSquare = Number.isInteger(Math.sqrt(counter5));
+  if (isSquare){
+    console.log(counter5)
+  }
+  counter5 += 1
+}
 
   /* Write your KATA 05 code in place of THIS comment. */
 
@@ -67,7 +110,11 @@
 ***/
 
   console.log('%cKATA 06 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
-
+let counter6 = 20
+while(counter6 >=1){
+  console.log(counter6)
+  counter6 -= 1
+}
 
   /* Write your KATA 06 code in place of THIS comment. */
 
